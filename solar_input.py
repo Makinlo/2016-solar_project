@@ -2,6 +2,8 @@
 # license: GPLv3
 
 from solar_objects import Star, Planet
+# From russia with love
+
 
 
 def read_space_objects_data_from_file(input_filename):
