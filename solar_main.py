@@ -36,7 +36,7 @@ def execution():
     """
     global physical_time
     global displayed_time
-    model.recalculate_space_objects_positions(space_objects, time_step.get())
+    model.recalculate_space_objects_positions(space_objects, 100000 * time_step.get())
     for body in space_objects:
         vis.update_object_position(space, body)
     physical_time += time_step.get()
