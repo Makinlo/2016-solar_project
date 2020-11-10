@@ -1,6 +1,8 @@
 # coding: utf-8
 # license: GPLv3
 
+# Работает Кузин Степан и Богданов Илья
+
 import tkinter
 from tkinter.filedialog import *
 from solar_vis import *
